@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Zilla+Slab&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Zilla Slab', serif;
+    box-sizing: border-box; 
+}
+
+#name{
+    margin-top: 10rem;
+    margin-left: 10px;
+}
+
+.navi{
+    display: flex;
+    border: 0px grey solid;
+    width: 100px;
+    height: 150px;
+    min-width: fit-content;
+    column-gap: 30px;
+    
+    
+}
+
+.navi ul{
+    margin-top:  2rem;
+    list-style: none;
+    font-size: larger;
+}
+
+.navi ul li{
+    padding: 10px;
+}
+
+.infoheading{
+    display: grid;
+}
+
+.infoheading h2{
+    
+}
